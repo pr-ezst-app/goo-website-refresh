@@ -11,14 +11,7 @@ export const MENU_ITEMS = [
   { id: 12, category: "Burgers", name: "Deluxe", price: 12.99, badge: null, desc: "Bacon, cheddar", emoji: "🥓" },
   { id: 13, category: "Burgers", name: "Veggie", price: 12.99, badge: "🌿 Vegan", desc: "Veggie patty, mozzarella, sautéed", emoji: "🥦" },
   { id: 14, category: "Burgers", name: "Barnyard", price: 19.99, badge: "🏆 Loaded", desc: "Cheddar, bacon, pulled pork, and chicken fingers", emoji: "🐔" },
-  { id: 3, category: "Bowls", name: "Green Goddess", price: 12.90, badge: "🌿 Vegan", desc: "Quinoa, roasted chickpeas, avocado, lemon tahini, microgreens", emoji: "🥗" },
-  { id: 4, category: "Bowls", name: "BBQ Pulled", price: 14.50, badge: null, desc: "Slow-cooked pork, smoky BBQ, pickles, crispy shallots, rice", emoji: "🍖" },
-  { id: 5, category: "Tacos", name: "Fish Baja", price: 11.90, badge: "❤️ Fan Fav", desc: "Beer-battered cod, chipotle crema, mango salsa, cabbage", emoji: "🌮" },
-  { id: 6, category: "Tacos", name: "Birria Bomb", price: 13.90, badge: "🔥 Spicy", desc: "Braised beef, consomé, oaxaca cheese, cilantro, white onion", emoji: "🌯" },
-  { id: 7, category: "Sides", name: "Waffle Fries", price: 5.90, badge: null, desc: "Hand-cut waffle fries, smoked paprika salt, house aioli", emoji: "🍟" },
-  { id: 8, category: "Sides", name: "Street Corn", price: 6.50, badge: "🌽 Seasonal", desc: "Elote-style, cotija, lime, chili dust, fresh herbs", emoji: "🌽" },
   { id: 9, category: "Drinks", name: "Ube Lemonade", price: 5.50, badge: "💜 Viral", desc: "Freshly squeezed lemon, ube syrup, sparkling water", emoji: "🍹" },
-  { id: 10, category: "Drinks", name: "Mango Lassi", price: 5.90, badge: null, desc: "Alphonso mango, yogurt, cardamom, rose water", emoji: "🥭" },
 ];
 
 const REVIEWS = [
