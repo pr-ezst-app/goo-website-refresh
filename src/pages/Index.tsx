@@ -420,10 +420,7 @@ export default function Index() {
                 <Icon name="Phone" size={14} style={{ color: "var(--goo-orange)" }} />
                 (519) 752-1111
               </a>
-              <a href="https://goostakeout.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
-                <Icon name="Globe" size={14} style={{ color: "var(--goo-orange)" }} />
-                goostakeout.com
-              </a>
+
             </div>
           </div>
           <div>
