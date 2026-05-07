@@ -412,17 +412,29 @@ export default function Index() {
           <div>
             <div className="text-sm mb-4" style={{ fontWeight: 600, color: "#A09070" }}>Contact</div>
             <div className="flex flex-col gap-3 text-sm" style={{ color: "#7A6850" }}>
-              <div className="flex items-center gap-2"><Icon name="MapPin" size={14} style={{ color: "var(--goo-orange)" }} />123 Food Street, Your City</div>
-              <div className="flex items-center gap-2"><Icon name="Phone" size={14} style={{ color: "var(--goo-orange)" }} />+1 (555) 000-0000</div>
-              <div className="flex items-center gap-2"><Icon name="Mail" size={14} style={{ color: "var(--goo-orange)" }} />hello@goos.food</div>
+              <a href="https://maps.google.com/?q=230+Shellard+Ln,+Brantford,+ON+N3T+0B9" target="_blank" rel="noopener noreferrer" className="flex items-start gap-2 hover:text-white transition-colors">
+                <Icon name="MapPin" size={14} style={{ color: "var(--goo-orange)", marginTop: "2px", flexShrink: 0 }} />
+                230 Shellard Ln, Brantford, ON N3T 0B9
+              </a>
+              <a href="tel:+15197521111" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Icon name="Phone" size={14} style={{ color: "var(--goo-orange)" }} />
+                (519) 752-1111
+              </a>
+              <a href="https://goostakeout.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-white transition-colors">
+                <Icon name="Globe" size={14} style={{ color: "var(--goo-orange)" }} />
+                goostakeout.com
+              </a>
             </div>
           </div>
           <div>
             <div className="text-sm mb-4" style={{ fontWeight: 600, color: "#A09070" }}>Hours</div>
             <div className="flex flex-col gap-2 text-sm" style={{ color: "#7A6850" }}>
-              <div className="flex justify-between"><span>Mon – Fri</span><span>11am – 10pm</span></div>
-              <div className="flex justify-between"><span>Saturday</span><span>10am – 11pm</span></div>
-              <div className="flex justify-between"><span>Sunday</span><span>12pm – 9pm</span></div>
+              <div className="flex justify-between"><span>Opens at</span><span>11:00 a.m.</span></div>
+              <div className="flex items-center gap-2 mt-1">
+                <span className="w-1.5 h-1.5 rounded-full inline-block" style={{ background: "#FF4444", flexShrink: 0 }} />
+                <span style={{ color: "#FF6666" }}>Currently Closed</span>
+              </div>
+              <div className="mt-2 text-xs" style={{ color: "#6B5A40" }}>$10–$20 per person</div>
             </div>
           </div>
         </div>
