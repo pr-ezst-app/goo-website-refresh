@@ -2,7 +2,7 @@ import Icon from "@/components/ui/icon";
 
 const HERO_IMG = "https://cdn.ezst.app/projects/9d674486-baf8-4ff0-a3f9-d15928a308ce/files/887e1d7b-5210-4fe4-a522-af92540ed967.jpg";
 
-export const MENU_CATEGORIES = ["All", "Burgers", "Bowls", "Tacos", "Sides", "Drinks"];
+export const MENU_CATEGORIES = ["All", "Burgers", "Sides", "Snacks"];
 
 export const MENU_ITEMS = [
   { id: 1, category: "Burgers", name: "Hamburger", price: 10.99, badge: null, desc: "Classic beef patty on a fresh bun", emoji: "🍔" },
@@ -11,7 +11,18 @@ export const MENU_ITEMS = [
   { id: 12, category: "Burgers", name: "Deluxe", price: 12.99, badge: null, desc: "Bacon, cheddar", emoji: "🥓" },
   { id: 13, category: "Burgers", name: "Veggie", price: 12.99, badge: "🌿 Vegan", desc: "Veggie patty, mozzarella, sautéed", emoji: "🥦" },
   { id: 14, category: "Burgers", name: "Barnyard", price: 19.99, badge: "🏆 Loaded", desc: "Cheddar, bacon, pulled pork, and chicken fingers", emoji: "🐔" },
-
+  { id: 15, category: "Sides", name: "Fries (Small)", price: 3.99, badge: null, desc: "Classic crispy fries", emoji: "🍟" },
+  { id: 16, category: "Sides", name: "Fries (Large)", price: 4.99, badge: null, desc: "Classic crispy fries", emoji: "🍟" },
+  { id: 17, category: "Sides", name: "Cheese Fries (Small)", price: 6.99, badge: null, desc: "Fries loaded with melted cheese", emoji: "🧀" },
+  { id: 18, category: "Sides", name: "Cheese Fries (Large)", price: 8.99, badge: null, desc: "Fries loaded with melted cheese", emoji: "🧀" },
+  { id: 19, category: "Sides", name: "Buffalo Fries (Small)", price: 4.99, badge: null, desc: "Fries tossed in buffalo sauce", emoji: "🌶️" },
+  { id: 20, category: "Sides", name: "Buffalo Fries (Large)", price: 5.99, badge: null, desc: "Fries tossed in buffalo sauce", emoji: "🌶️" },
+  { id: 21, category: "Sides", name: "Veggie Cheese Fries (Small)", price: 8.99, badge: "🌿 Vegan", desc: "Veggie fries with melted cheese", emoji: "🥦" },
+  { id: 22, category: "Sides", name: "Veggie Fries (Large)", price: 11.99, badge: "🌿 Vegan", desc: "Large veggie fries", emoji: "🥦" },
+  { id: 23, category: "Snacks", name: "Onion Rings (Small)", price: 4.99, badge: null, desc: "Crispy golden onion rings", emoji: "🧅" },
+  { id: 24, category: "Snacks", name: "Onion Rings (Large)", price: 8.49, badge: null, desc: "Crispy golden onion rings", emoji: "🧅" },
+  { id: 25, category: "Snacks", name: "Chicken Skins", price: 7.99, badge: "🔥 Fan Fav", desc: "Crispy seasoned chicken skins", emoji: "🍗" },
+  { id: 26, category: "Snacks", name: "Deep Fried Pickles", price: 9.99, badge: null, desc: "Golden deep fried dill pickles", emoji: "🥒" },
 ];
 
 const REVIEWS = [
