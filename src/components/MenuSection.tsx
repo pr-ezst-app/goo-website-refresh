@@ -11,7 +11,7 @@ export const MENU_ITEMS = [
   { id: 12, category: "Burgers", name: "Deluxe", price: 12.99, badge: null, desc: "Bacon, cheddar", emoji: "🥓" },
   { id: 13, category: "Burgers", name: "Veggie", price: 12.99, badge: "🌿 Vegan", desc: "Veggie patty, mozzarella, sautéed", emoji: "🥦" },
   { id: 14, category: "Burgers", name: "Barnyard", price: 19.99, badge: "🏆 Loaded", desc: "Cheddar, bacon, pulled pork, and chicken fingers", emoji: "🐔" },
-  { id: 9, category: "Drinks", name: "Ube Lemonade", price: 5.50, badge: "💜 Viral", desc: "Freshly squeezed lemon, ube syrup, sparkling water", emoji: "🍹" },
+
 ];
 
 const REVIEWS = [
