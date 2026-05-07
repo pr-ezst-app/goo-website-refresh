@@ -5,8 +5,12 @@ const HERO_IMG = "https://cdn.ezst.app/projects/9d674486-baf8-4ff0-a3f9-d15928a3
 export const MENU_CATEGORIES = ["All", "Burgers", "Bowls", "Tacos", "Sides", "Drinks"];
 
 export const MENU_ITEMS = [
-  { id: 1, category: "Burgers", name: "The OG Smash", price: 14.90, badge: "🔥 Bestseller", desc: "Double smash patty, aged cheddar, house sauce, pickled onion", emoji: "🍔" },
-  { id: 2, category: "Burgers", name: "Crispy Bird", price: 13.50, badge: "⚡ New", desc: "Buttermilk fried chicken, slaw, jalapeño honey, brioche bun", emoji: "🍗" },
+  { id: 1, category: "Burgers", name: "Hamburger", price: 14.90, badge: null, desc: "Classic beef patty on a fresh bun", emoji: "🍔" },
+  { id: 2, category: "Burgers", name: "Cheeseburger", price: 13.50, badge: null, desc: "Classic beef patty with melted cheese", emoji: "🧀" },
+  { id: 11, category: "Burgers", name: "Goo Burger", price: 14.90, badge: "🔥 Signature", desc: "Chicken skins, mozzarella", emoji: "🍗" },
+  { id: 12, category: "Burgers", name: "Deluxe", price: 15.90, badge: null, desc: "Bacon, cheddar", emoji: "🥓" },
+  { id: 13, category: "Burgers", name: "Veggie", price: 13.90, badge: "🌿 Vegan", desc: "Veggie patty, mozzarella, sautéed", emoji: "🥦" },
+  { id: 14, category: "Burgers", name: "Barnyard", price: 17.90, badge: "🏆 Loaded", desc: "Cheddar, bacon, pulled pork, and chicken fingers", emoji: "🐔" },
   { id: 3, category: "Bowls", name: "Green Goddess", price: 12.90, badge: "🌿 Vegan", desc: "Quinoa, roasted chickpeas, avocado, lemon tahini, microgreens", emoji: "🥗" },
   { id: 4, category: "Bowls", name: "BBQ Pulled", price: 14.50, badge: null, desc: "Slow-cooked pork, smoky BBQ, pickles, crispy shallots, rice", emoji: "🍖" },
   { id: 5, category: "Tacos", name: "Fish Baja", price: 11.90, badge: "❤️ Fan Fav", desc: "Beer-battered cod, chipotle crema, mango salsa, cabbage", emoji: "🌮" },
